@@ -531,7 +531,13 @@ textarea.form-control {
 
 .owl-carousel.major-caousel .slider-item {
   height: inherit;
-  min-height: inherit; }
+  min-height: inherit;
+}
+.owl-carousel.major-caousel.photos .slider-item {
+  max-height: 800px;
+  max-width: 600px;
+  margin: 0 auto;
+}
   .owl-carousel.major-caousel .slider-item img {
     margin-bottom: 0; }
 
@@ -1090,7 +1096,8 @@ textarea.form-control {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
-      margin-bottom: 0 !important; }
+      margin-bottom: 0 !important; 
+      height: 450px;}
   .room:hover .img-wrap img, .room:focus .img-wrap img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
