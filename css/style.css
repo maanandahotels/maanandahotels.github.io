@@ -1088,7 +1088,9 @@ textarea.form-control {
   display: block; }
   .room .img-wrap {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    text-align: center;
+  }
     .room .img-wrap img {
       -webkit-transition: .3s all ease-in-out;
       -o-transition: .3s all ease-in-out;
